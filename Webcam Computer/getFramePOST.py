@@ -43,8 +43,7 @@ while True:
         send += str(x)[1:]
     f.close()
 
-    url = "https://livestream.dhyeyb.repl.co/getRGBvals.php"
-    #url = 'https://livestreamdb23.000webhostapp.com/getRGBvals.php'
+    url = "enter_url/getRGBvals.php"
     myobj = {"rgbVals": send}
 
     x = requests.post(url, data=myobj)
